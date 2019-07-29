@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: gongjiaoka - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\HP\AppData\Local\Temp\RSPB9CB.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/gongjiaoka.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\homework\gongjiaoka\CardMach.cpp"
+"D:\homework\gongjiaoka\MainTcard.cpp"
+]
+Creating command line "cl.exe @C:\Users\HP\AppData\Local\Temp\RSPB9CB.tmp" 
+Creating temporary file "C:\Users\HP\AppData\Local\Temp\RSPB9CC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/gongjiaoka.pdb" /debug /machine:I386 /out:"Debug/gongjiaoka.exe" /pdbtype:sept 
+.\Debug\CardMach.obj
+.\Debug\MainTcard.obj
+.\Debug\Tcard.obj
+]
+Creating command line "link.exe @C:\Users\HP\AppData\Local\Temp\RSPB9CC.tmp"
+<h3>Output Window</h3>
+Compiling...
+CardMach.cpp
+d:\homework\gongjiaoka\cardmach.cpp(11) : error C2440: '=' : cannot convert from 'int []' to 'int [64]'
+        There are no conversions to array types, although there are conversions to references or pointers to arrays
+d:\homework\gongjiaoka\cardmach.cpp(26) : error C2248: 'type' : cannot access private member declared in class 'TCard'
+        d:\homework\gongjiaoka\tcard.h(8) : see declaration of 'type'
+d:\homework\gongjiaoka\cardmach.cpp(27) : error C2248: 'line' : cannot access private member declared in class 'TCard'
+        d:\homework\gongjiaoka\tcard.h(10) : see declaration of 'line'
+d:\homework\gongjiaoka\cardmach.cpp(28) : error C2248: 'start' : cannot access private member declared in class 'TCard'
+        d:\homework\gongjiaoka\tcard.h(11) : see declaration of 'start'
+d:\homework\gongjiaoka\cardmach.cpp(32) : error C2065: 'diff' : undeclared identifier
+d:\homework\gongjiaoka\cardmach.cpp(39) : error C2511: 'max' : overloaded member function 'double (char,class TCard &)' not found in 'CardMach'
+        d:\homework\gongjiaoka\cardmach.h(4) : see declaration of 'CardMach'
+Skipping... (no relevant changes detected)
+MainTcard.cpp
+Ö´ÐÐ cl.exe Ê±³ö´í.
+
+
+
+<h3>Results</h3>
+gongjiaoka.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
